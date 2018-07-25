@@ -1,19 +1,12 @@
-def simple_curfew_checker(time)
-  # code goes here
+def simple_curfew_checker(x)
+  if x > 23
+    puts "its time to sleep!"
+  elsif x< 23
+    puts "stay awake!"
+  else x==23
+    puts "youre almost in trouble!"
+  end
 end
+simple_curfew_checker(23)
 
-def curfew_checker(time)
-  # code goes here
-end
 
-def complex_curfew_checker(time)
-  # code goes here
-end
-
-def deluxe_curfew_checker(time)
-  # code goes here
-end
-
-def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
-end
